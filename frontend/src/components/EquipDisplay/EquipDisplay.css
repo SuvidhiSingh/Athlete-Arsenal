@@ -1,0 +1,14 @@
+.equip-display{
+    margin-top:30px;
+}
+.equip-display h2{
+    font-size:max(2vw,24px);
+    font-weight:1600px;
+}
+.equip-display-list{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
+    margin-top:30px;
+    gap:69px;
+    row-gap:50px;
+}
